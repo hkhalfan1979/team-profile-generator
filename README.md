@@ -5,6 +5,20 @@
 
    ## Description
     Node.js project command-line application that asks information on employees on a software engineering team and auto generates an HTML page that displays profile details for each employee.
+
+   ## Screenshot
+
+     ![Readme generator screenshot.](./assets/profile-generator-command-line.png)
+
+     ![Readme generator screenshot.](./assets/profile-generator-html-file.png)
+
+   ## Video
+
+     Video link [Video](https://drive.google.com/file/d/1wjiRieleMQvwFmT5Vt7ZhJ-kbkl-oFpo/view?usp=sharing)
+
+   ## Gif
+
+     ![Readme generator screenshot.](./assets/profile-generator.gif)
    
    ## Table of Content
    - [Installation](#installation)
@@ -142,5 +156,3 @@ In addition to `Employee`'s properties and methods, `Intern` will also have the 
 * `getSchool()`
 
 * `getRole()`&mdash;overridden to return `'Intern'`
-
-Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.
