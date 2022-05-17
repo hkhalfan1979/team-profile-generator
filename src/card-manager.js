@@ -1,7 +1,7 @@
 // Manager profile template
 const managerCard = (profile) => `
   <div class="card col-md-4 p-0">
-    <div class="card-header bg-dark text-white">
+    <div class="card-header bg-primary text-white">
       <h3> ${profile.getName()} </h3>
       <h4> ${profile.getRole()} </h4>
     </div>
