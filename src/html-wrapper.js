@@ -12,8 +12,8 @@ const htmlwrapper = (cards) => `
   <body>
     
     <!-- Header -->
-    <header class="bg-dark text-light">
-      <h1>
+    <header class="bg-dark text-light mb-5">
+      <h1 class="text-center p-4">
         Team Profile Generator
       </h1>
     </header>
@@ -21,7 +21,7 @@ const htmlwrapper = (cards) => `
     <!-- Main container -->
     <main>
       <div class="container">
-        <div class="row d-flex">   
+        <div class="row">   
           ${cards}       
         </div>
       </div>

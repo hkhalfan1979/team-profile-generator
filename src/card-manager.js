@@ -1,22 +1,22 @@
 // Manager profile template
 const managerCard = (profile) => `
-  <div class="card col-md-4">
+  <div class="card col-md-4 p-0">
     <div class="card-header bg-dark text-white">
       <h3> ${profile.getName()} </h3>
       <h4> ${profile.getRole()} </h4>
     </div>
     <div class="card-body">
-      <ul>
-        <li>
-          ID: ${profile.getID()}
+      <ul class="list-group">
+        <li class="list-group-item">
+          <strong>ID:</strong> ${profile.getID()}
         </li>
-        <li>          
-          Email: <a href="mailto:${profile.getEmail()}">${profile.getEmail()}</a>
+        <li class="list-group-item">          
+          <strong>Email:</strong> <a href="mailto: ${profile.getEmail()}">${profile.getEmail()} </a>
         </li>
-        <li>
-          Office:  ${profile.getOffice()}
+        <li class="list-group-item">
+          <strong>Office Phone:</strong> ${profile.getOffice()}
         </li>
-      </ul>
+    </ul>
     </div>
   </div>
 `;
