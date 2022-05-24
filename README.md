@@ -7,18 +7,18 @@
     Node.js project command-line application that asks information on employees on a software engineering team and auto generates an HTML page that displays profile details for each employee.
 
    ## Screenshot
+  
+  ![Readme generator screenshot](./assets/profile-generator-command-line.png)     
 
-     ![Readme generator screenshot.](./assets/profile-generator-command-line.png)
-
-     ![Readme generator screenshot.](./assets/profile-generator-html-file.png)
+  ![Readme generator screenshot](./assets/profile-generator-html-file.png)
 
    ## Video
-
-     Video link [Video](https://drive.google.com/file/d/1wjiRieleMQvwFmT5Vt7ZhJ-kbkl-oFpo/view?usp=sharing)
+  
+  [![Watch the video](./assets/profile-generator-command-line.png)](https://drive.google.com/file/d/1wjiRieleMQvwFmT5Vt7ZhJ-kbkl-oFpo/view)
 
    ## Gif
 
-     ![Readme generator screenshot.](./assets/profile-generator.gif)
+  ![Readme generator GIF](./assets/profile-generator.gif)
    
    ## Table of Content
    - [Installation](#installation)
